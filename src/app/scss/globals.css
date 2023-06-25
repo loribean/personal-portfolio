@@ -8,6 +8,15 @@
   --light-slate: #ccd6f6;
   --lightest-slate: #a8b2d1;
   --theme-color: #9d00ff;
+  --tsm: 13px;
+  --tsm1: 14px;
+  --tsm2: 15px;
+  --tbase: 16px;
+  --tlarge: 18px;
+  --tlarge2: 22px;
+  --txlarge: 25px;
+  --tx2large: 32px;
+  --tgiant: clamp(40px, 8vw, 80px);
 }
 
 ::-moz-selection {
@@ -30,7 +39,7 @@ body {
   counter-reset: title;
 }
 
-main {
+.main {
   transition: 0.3s ease-in-out;
 }
 

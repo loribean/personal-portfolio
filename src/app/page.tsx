@@ -1,94 +1,51 @@
+'use client';
 import Image from 'next/image'
-import styles from './page.module.css'
+import "@/app/scss/globals.css";
+import "@/app/scss/index.scss";
+import Head from "next/head";
+import Email from "@/app/components/Email";
+import Navbar from "@/app/sections/Navbar";
+import Loader from "@/app/components/Loader";
+import SocialIcons from "@/app/components/SocialIcons";
+import Footer from "@/app/sections/Footer";
+import Hero from "@/app/sections/Hero";
+import React, { useState } from "react";
+import About from "@/app/sections/About";
+import Contact from "@/app/sections/Contact";
+import Projects from "@/app/sections/Projects";
+import Experience from "@/app/sections/Experience";
 
 export default function Home() {
+  const [isLoading, setIsLoading] = useState(true);
+  const [showContent, setShowContent] = useState(false);
+
+  const handleLoaderLoaded = () => {
+    setIsLoading(false);
+    setTimeout(() => setShowContent(true), 450);
+  };
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+    <main>
+      <div>
+        <Head>
+          <title>Kishan Sheth</title>
+          <link rel="shortcut icon" href="/favicon.ico" />
+        </Head>
+        {showContent && (
+          <>
+            <Navbar />
+            <SocialIcons />
+            <Email />
+            <main>
+              <Hero />
+              <About />
+              <Experience />
+              <Projects />
+              <Contact />
+            </main>
+            <Footer />
+          </>
+        )}
+        <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />
       </div>
     </main>
   )
