@@ -28,7 +28,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
+            Hello there! My name is Aurelia, and I am passionate about creating
             digital content for the web. My interest in web development was
             sparked in 2016 when I created my first project called Lavish, a
             social media app built using React and Node.js.
@@ -37,8 +37,8 @@ function About() {
             Fast-forward to today, I specialize in designing and developing
             high-quality solutions that delight our clients and exceed their
             expectations at{" "}
-            <Link href="https://rapidops.com" className="link" target="_blank">
-              Rapidops.
+            <Link href="https://accredify.io" className="link" target="_blank">
+              Accredify.
             </Link>
           </p>
 

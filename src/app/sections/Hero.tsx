@@ -54,8 +54,8 @@ function Hero() {
         I&apos;m a software engineer with expertise in creating top-notch
         digital experiences. My current focus is on developing products that are
         accessible and centered around user needs, as part of the team at&nbsp;
-        <Link href="https://rapidops.com" target="_blank" className="link">
-          Rapidops.
+        <Link href="https://accredify.io" target="_blank" className="link">
+          Accredify
         </Link>
       </motion.p>
       <motion.div

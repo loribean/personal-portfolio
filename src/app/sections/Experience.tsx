@@ -12,11 +12,11 @@ function Experience() {
     transformSelected();
   }, [selected]);
 
-  const expereinces = [
+  const experiences = [
     {
-      name: "Rapidops",
+      name: "Accredify",
       role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
+      url: "https://www.accredify.io",
       start: "January 2021",
       end: "Present",
       shortDescription: [
@@ -93,16 +93,15 @@ function Experience() {
       <div className="container">
         <ul className="exp-slider">
           <div className="underline"></div>
-          {expereinces.map((expereince, index) => {
+          {experiences.map((experience, index) => {
             return (
               <li
-                className={`exp-slider-item ${
-                  index === selected && "exp-slider-item-selected"
-                }`}
+                className={`exp-slider-item ${index === selected && "exp-slider-item-selected"
+                  }`}
                 onClick={() => setSelected(index)}
-                key={expereince.name}
+                key={experience.name}
               >
-                <span>{expereince.name}</span>
+                <span>{experience.name}</span>
               </li>
             );
           })}
@@ -110,19 +109,19 @@ function Experience() {
         <div className="exp-details">
           <div className="exp-details-position">
             <h3>
-              <span>{expereinces[selected].role}</span>
+              <span>{experiences[selected].role}</span>
               <span className="exp-details-position-company">
                 &nbsp;@&nbsp;
-                <Link href={expereinces[selected].url} className="link">
-                  {expereinces[selected].name}
+                <Link href={experiences[selected].url} className="link">
+                  {experiences[selected].name}
                 </Link>
               </span>
             </h3>
             <p className="exp-details-range">
-              {expereinces[selected].start} - {expereinces[selected].end}
+              {experiences[selected].start} - {experiences[selected].end}
             </p>
             <ul className="exp-details-list">
-              {expereinces[selected].shortDescription.map(
+              {experiences[selected].shortDescription.map(
                 (description, index) => (
                   <li key={index} className="exp-details-list-item">
                     {description}
