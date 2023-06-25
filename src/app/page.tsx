@@ -27,7 +27,7 @@ export default function Home() {
     <main>
       <div>
         <Head>
-          <title>Kishan Sheth</title>
+          <title>Aurelia Lim</title>
           <link rel="shortcut icon" href="/favicon.ico" />
         </Head>
         {showContent && (
