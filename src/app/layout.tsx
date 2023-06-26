@@ -1,3 +1,4 @@
+"use client";
 import "@/app/scss/globals.css";
 import "@/app/scss/index.scss";
 
@@ -12,8 +13,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={raleway.className}>{children}</body>
-    </html>
+    <>
+      <style jsx global>{`
+        :root {
+          --raleway: ${raleway.style.fontFamily};
+          --fira-code: ${firaCode.style.fontFamily};
+        }
+      `}</style>
+      <html lang="en">
+        <body className={raleway.className}>{children}</body>
+      </html>
+    </>
   )
 }

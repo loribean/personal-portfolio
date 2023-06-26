@@ -28,7 +28,7 @@ export default function Home() {
       <div>
         <Head>
           <title>Aurelia Lim</title>
-          <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="shortcut icon" href="/favicon2.ico" />
         </Head>
         {showContent && (
           <>
@@ -42,7 +42,6 @@ export default function Home() {
               <Projects />
               <Contact />
             </main>
-            <Footer />
           </>
         )}
         <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />

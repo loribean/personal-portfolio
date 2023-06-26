@@ -15,7 +15,7 @@ function Hero() {
           delay: 0.6,
         }}
       >
-        Hi my name is
+        Hey there, I'm
       </motion.h1>
       <motion.h2
         className="hero-title-large"
@@ -39,7 +39,7 @@ function Hero() {
           delay: 1.05,
         }}
       >
-        I craft things for the web.
+        I build things for the web.
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -51,9 +51,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a software engineer with expertise in creating top-notch
-        digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
+        I&apos;m a back-end focused software engineer! My current focus is on developing products for good, as part of the team at&nbsp;
         <Link href="https://accredify.io" target="_blank" className="link">
           Accredify
         </Link>
@@ -69,8 +67,8 @@ function Hero() {
         }}
       >
         <Button
-          text="Check out my course"
-          link="https://youtube.com/kishansheth21"
+          text="Check out my blog"
+          link="#"
         />
       </motion.div>
     </div>

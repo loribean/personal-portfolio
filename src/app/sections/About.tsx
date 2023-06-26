@@ -29,48 +29,35 @@ function About() {
         <div className="about-grid-info">
           <p className="about-grid-info-text">
             Hello there! My name is Aurelia, and I am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
+            scalable and robust web applications. My interest in web development was
+            sparked in 2020 when I created my first project called Puppy Love, a
+            tinder-style pet adoption app built using React and Node.js.
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to today, I specialize in designing and developing
-            high-quality solutions that delight our clients and exceed their
-            expectations at{" "}
+            Fast-forward to today, I'm mid software engineer. I help to build APIs, design infrastructure,
+            and databases that powers the product over at{" "}
             <Link href="https://accredify.io" className="link" target="_blank">
               Accredify.
             </Link>
           </p>
 
+         
           <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
-          </p>
-          <p className="about-grid-info-text">
-            I am also working on a new project called&nbsp;
-            <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita,
-            </Link>
-            &nbsp;aimed at enhancing frontend development skills.
-          </p>
-          <p className="about-grid-info-text">
-            Here are a few technologies I’ve been working with recently:
+            Here are a few technologies I’ve worked with:
           </p>
           <ul className="about-grid-info-list">
+            <li className="about-grid-info-list-item">Laravel</li>
             <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">React Native</li>
-            <li className="about-grid-info-list-item">Next.js</li>
-            <li className="about-grid-info-list-item">Typescript</li>
-            <li className="about-grid-info-list-item">Redux Toolkit</li>
+            <li className="about-grid-info-list-item">Terraform</li>
+            <li className="about-grid-info-list-item">Docker</li>
             <li className="about-grid-info-list-item">Node.js</li>
-            <li className="about-grid-info-list-item">Elasticsearch</li>
-            <li className="about-grid-info-list-item">Kibana</li>
-            <li className="about-grid-info-list-item">CSS</li>
+            <li className="about-grid-info-list-item">AWS SAA</li>
+            <li className="about-grid-info-list-item">Python</li>
+            <li className="about-grid-info-list-item">Django</li>
+            <li className="about-grid-info-list-item">MySQL</li>
+            <li className="about-grid-info-list-item">REST</li>
+            <li className="about-grid-info-list-item">OAuth2.0</li>
+            <li className="about-grid-info-list-item">OpenAPI</li>
           </ul>
         </div>
         <div className="about-grid-photo">
