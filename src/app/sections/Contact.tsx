@@ -18,7 +18,7 @@ function Contact() {
       <h2 className="contact-title">What&apos;s Next?</h2>
       <h2 className="contact-sub-title">Get In Touch</h2>
       <p className="contact-text">
-        Drop me an email, I'll get back to you in a jiffy.
+        Drop me an email, I&apos;ll get back to you in a jiffy.
       </p>
       <div className="contact-cta">
         <Button link="mailto:aureliadotlim@gmail.com" text="Say Hello" />
