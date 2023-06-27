@@ -15,7 +15,7 @@ function Hero() {
           delay: 0.6,
         }}
       >
-        Hey there, I'm
+        Hey there, I&apos;m
       </motion.h1>
       <motion.h2
         className="hero-title-large"
