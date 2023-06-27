@@ -38,6 +38,21 @@ function Projects() {
         externalLink: "https://github.com/loribean/portfolio-builder",
       },
     },
+    {
+      image: "/dining.png",
+      projectName: "Restaurant Booking Site",
+      projectLink: "https://www.copaquadining.com/",
+      projectDescription:
+        "Booking site for Cebu Ocean Park's fine-dining concept. Integrated Stripe as the payment provider. Ease of booking led to 35% growth in revenue.",
+      projectTech: [
+        "Stripe",
+      ],
+      projectExternalLinks: {
+        github: "https://www.copaquadining.com/",
+        externalLink: "https://www.copaquadining.com/",
+      },
+    },
+
   ];
   return (
     <div className="projects" id="work">

@@ -51,7 +51,7 @@ function About() {
             <li className="about-grid-info-list-item">Terraform</li>
             <li className="about-grid-info-list-item">Docker</li>
             <li className="about-grid-info-list-item">Node.js</li>
-            <li className="about-grid-info-list-item">AWS SAA</li>
+            <li className="about-grid-info-list-item">AWS</li>
             <li className="about-grid-info-list-item">Python</li>
             <li className="about-grid-info-list-item">Django</li>
             <li className="about-grid-info-list-item">MySQL</li>
@@ -64,7 +64,7 @@ function About() {
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+            <Image src="/lori2.png" alt="profile" fill />
           </div>
         </div>
       </div>

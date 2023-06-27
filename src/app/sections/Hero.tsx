@@ -27,7 +27,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Aurelia Lim.
+        Aurelia!
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"
@@ -51,7 +51,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a back-end focused software engineer! My current focus is on developing products for good, as part of the team at&nbsp;
+        I&apos;m a back-end focused software engineer. I am currently focused on developing products for good, as part of the team at&nbsp;
         <Link href="https://accredify.io" target="_blank" className="link">
           Accredify
         </Link>

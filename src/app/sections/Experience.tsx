@@ -20,14 +20,14 @@ function Experience() {
       start: "January 2021",
       end: "Present",
       shortDescription: [
-        "Key contributor to Accredify&apos;s verifiable Antigen Rapid Test START solution, which was featured in the news",
         "Lead back-end engineer for Analytics Dashboard.  Designed and implemented event-sourced architecture and created insights from over 15M data points.",
-        "Built Accredify&apos;s OAuth authorization flows and RESTful APIs, allowing over 1000 clients programmatic access to Accredify&apos;s features.",
+        "Built Accredify's OAuth authorization flows and RESTful APIs, allowing over 1000 clients programmatic access to Accredify's features.",
         "Test-driven development with automated feature and unit tests with Pest, maintaining 80%  test coverage",
-        "Architected and implemented automated billing system and invoicing with Stripe APIs,"
+        "Architected and implemented automated billing system and invoicing with Stripe APIs,",
+        "Built end-to-end features and maintained Accredify's Dashboard which scaled to 4M users, collaborating with cross-functional teams and external stakeholders"
       ],
     },
-  ];
+  ]; 
   return (
     <motion.div
       className="experience"
