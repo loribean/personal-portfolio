@@ -16,6 +16,10 @@ function Navbar() {
       name: "Contact",
       link: "/#contact",
     },
+    {
+      name: "Blog",
+      link: "/blog",
+    },
   ];
 
   useEffect(() => {
