@@ -1,5 +1,6 @@
 nav {
   min-height: 60px;
+  position: relative;
   .wrapper {
     width: 100%;
     display: flex;
@@ -110,7 +111,7 @@ nav {
   }
   .blur-nav {
     height: 80px;
-    position: fixed;
+    // position: fixed;
     top: 0;
     transition: 0.3s ease-in-out;
     z-index: 100;

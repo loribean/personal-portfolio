@@ -45,14 +45,6 @@ function Navbar() {
     });
   }, []);
 
-  useEffect(() => {
-    const main = document.querySelector("main");
-    if (responsiveNavVisible) {
-      main?.classList.add("blur");
-    } else {
-      main?.classList.remove("blur");
-    }
-  }, [responsiveNavVisible]);
 
   return (
     <nav>
