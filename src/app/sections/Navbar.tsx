@@ -58,7 +58,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="aurelialim.com">
+          <Link href="/">
             <Logo />
           </Link>
         </motion.div>

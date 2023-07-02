@@ -68,7 +68,7 @@ function Hero() {
       >
         <Button
           text="Check out my blog"
-          link="#"
+          link="/blog"
         />
       </motion.div>
     </div>
