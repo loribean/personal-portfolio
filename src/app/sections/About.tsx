@@ -34,7 +34,7 @@ function About() {
             tinder-style pet adoption app built using React and Node.js.
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to today, I&apos;m mid software engineer. I help to build APIs, design infrastructure,
+            Fast-forward to today, I&apos;m a software engineer. I help to build APIs, design infrastructure,
             and databases that powers the product over at{" "}
             <Link href="https://www.deliveryhero.com/" className="link" target="_blank">
               Delivery Hero
