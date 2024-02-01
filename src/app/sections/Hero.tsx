@@ -51,9 +51,9 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a back-end focused software engineer. I am currently focused on developing products for good, as part of the team at&nbsp;
-        <Link href="https://accredify.io" target="_blank" className="link">
-          Accredify
+        I&apos;m a back-end focused software engineer. I am currently focused on developing products, as part of the team at&nbsp;
+        <Link href="https://www.deliveryhero.com/" target="_blank" className="link">
+          foodpanda/deliveryhero
         </Link>
       </motion.p>
       <motion.div
@@ -68,7 +68,7 @@ function Hero() {
       >
         <Button
           text="Check out my blog"
-          link="/blog"
+          link="https://medium.com/@aureliadotlim"
         />
       </motion.div>
     </div>

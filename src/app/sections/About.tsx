@@ -36,8 +36,8 @@ function About() {
           <p className="about-grid-info-text">
             Fast-forward to today, I&apos;m mid software engineer. I help to build APIs, design infrastructure,
             and databases that powers the product over at{" "}
-            <Link href="https://accredify.io" className="link" target="_blank">
-              Accredify.
+            <Link href="https://www.deliveryhero.com/" className="link" target="_blank">
+              Delivery Hero
             </Link>
           </p>
 
@@ -46,14 +46,14 @@ function About() {
             Here are a few technologies I&apos;ve worked with:
           </p>
           <ul className="about-grid-info-list">
-            <li className="about-grid-info-list-item">Laravel</li>
-            <li className="about-grid-info-list-item">React</li>
+            <li className="about-grid-info-list-item">Golang</li>
+            <li className="about-grid-info-list-item">Gin</li>
             <li className="about-grid-info-list-item">Terraform</li>
             <li className="about-grid-info-list-item">Docker</li>
             <li className="about-grid-info-list-item">Node.js</li>
             <li className="about-grid-info-list-item">AWS</li>
             <li className="about-grid-info-list-item">Python</li>
-            <li className="about-grid-info-list-item">Django</li>
+            <li className="about-grid-info-list-item">Laravel</li>
             <li className="about-grid-info-list-item">MySQL</li>
             <li className="about-grid-info-list-item">REST</li>
             <li className="about-grid-info-list-item">OAuth2.0</li>

@@ -18,7 +18,7 @@ function Navbar() {
     },
     {
       name: "Blog",
-      link: "/blog",
+      link: "https://medium.com/@aureliadotlim",
     },
   ];
 
